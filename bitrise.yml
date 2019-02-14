@@ -15,7 +15,7 @@ workflows:
         inputs:
         - content: |-
             #!/bin/bash
-            echo " ======== Welcome to Bitrise Local yml !"
+            echo " ======== Welcome to Bitrise Local yml!"
     - cocoapods-install: {}
     - xcode-test@2.1.1:
         inputs:
